@@ -3,13 +3,16 @@ name: Fetch and Publish to Pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */3 * * *'   # 每 3 小时运行一次（可改）
+    - cron: '17 */3 * * *'
   push:
     paths:
       - '**.py'
       - 'sources.list'
       - 'config.yml'
       - 'requirements.txt'
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
