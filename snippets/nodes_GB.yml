@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 🇬🇧 英国 | GBR 5
+  network: ws
+  password: humanity
+  port: 2053
+  server: 82.117.245.125
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇬🇧 英国 | GBR #5'
+  password: humanity
+  port: 2053
+  server: 82.117.245.125
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
