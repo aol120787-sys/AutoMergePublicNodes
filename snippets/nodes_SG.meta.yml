@@ -35,8 +35,7 @@ proxies:
     headers:
       Host: onhit.shalana.shop
     path: /shalana
-- encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
   network: ws
   port: 80
   server: 5.223.41.93
@@ -131,25 +130,35 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #1'
+- name: '🇸🇬 新加坡 | SGP #3'
   network: ws
-  port: 443
-  server: 128.1.186.115
-  servername: www.nihaoyun.top
-  tls: true
+  port: 2082
+  server: 162.159.43.187
+  tls: false
   type: vless
   udp: true
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: www.nihaoyun.top
-    path: /
-- name: 🇸🇬 新加坡 | SGP 3
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1044
-  server: 6fi1bsry.zf-mix.9999231.xyz
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
   skip-cert-verify: true
-  sni: sg-cc.9999231.xyz
-  type: anytls
+  sni: jiangjc.pages.dev
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: jiangjc.pages.dev
+    path: /
+- name: '🇸🇬 新加坡 | SGP #4'
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  skip-cert-verify: true
+  sni: jiangjc.pages.dev
+  type: trojan
