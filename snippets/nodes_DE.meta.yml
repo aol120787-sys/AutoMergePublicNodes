@@ -19,33 +19,65 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪185530 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
+- name: 🌟14@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.103
+  sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.7MB/s
-  network: tcp
+- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  network: ws
+  port: 80
+  server: 139.162.149.105
+  tls: false
+  type: vless
+  uuid: 5aae7d2d-c152-42cc-afb6-fe805fb94531
+  ws-opts:
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: kGdP0X0DwcMbXovNjpQ3o7ubghwu1dedhcoFtLFOnBk
-    short-id: '!!str 1fc709'
-  server: agroup.de1.ilovegairport.com
-  servername: eu-central-1.console.aws.amazon.com
+  server: 84.38.183.237
+  servername: ws.nightproducts.ru
   tls: true
   type: vless
-  udp: true
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  ws-opts:
+    path: /vless
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
+  network: ws
+  port: 8443
+  server: www.large-files.info
+  servername: www.large-files.info
+  tls: true
+  type: vless
+  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+  ws-opts:
+    path: /var/www/html/video/preview/download/i8o0la
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
+  network: ws
+  port: 2083
+  server: 45.88.12.110
+  servername: mol.ultimagamest.com
+  tls: true
+  type: vless
+  uuid: 7e5b1e82-73db-429a-93b2-7839a0bf4dc0
+  ws-opts:
+    path: /vless-ws
 - client-fingerprint: chrome
   encryption: none
   name: 🇩🇪DE_2|1.7MB/s
   network: ws
-  port: '443'
+  port: 443
   server: 104.21.69.30
   servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
   tls: true
@@ -59,3 +91,65 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /?ed=2560
   xudp: true
+- auth: cf83b611-6cba-4535-adcb-8da06c6a9146
+  name: '🇩🇪 德国 | DEU #1'
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  skip-cert-verify: true
+  sni: vps155-edge.kermemehori.ru
+  tls: false
+  type: hysteria2
+- auth: 06e88dd6-e264-4981-8c26-d7ab17348ab2
+  name: '🇩🇪 德国 | DEU #3'
+  password: 06e88dd6-e264-4981-8c26-d7ab17348ab2
+  port: 443
+  server: 144.31.232.216
+  skip-cert-verify: true
+  sni: fi01.clgate.network
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #5'
+  network: ws
+  port: 8443
+  server: 5.45.107.150
+  servername: www.nihaoyun.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
+  ws-opts:
+    headers:
+      Host: www.nihaoyun.top
+    path: /
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: '🇩🇪 德国 | DEU #6'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #7'
+  network: ws
+  port: 443
+  server: 161.35.192.122
+  servername: www.nihaoyun.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
+  ws-opts:
+    headers:
+      Host: www.nihaoyun.top
+    path: /
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇩🇪 德国 | DEU #8'
+  password: 3dnhV7bixKH/zZxV1pUukqQJUgb0FLew7bx7u8qXaq0=
+  port: 59924
+  server: 130.61.149.187
+  type: ss
+  udp: true
