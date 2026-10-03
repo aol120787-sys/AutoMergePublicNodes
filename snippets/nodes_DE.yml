@@ -3,7 +3,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: '🇩🇪 德国 | DEU #3'
+  name: '🇩🇪 德国 | DEU #11'
   network: ws
   port: 80
   server: 188.114.96.19
